@@ -392,3 +392,117 @@ body{
     background-color: lightgray;
     border:20px solid black
 }
+#header-3-2{
+    background-color:pink;
+    grid-area:1/1/9/2;
+    font-size:1.5em;
+
+}
+#c3p21{
+    grid-area:1/2/9/5;
+    background-color:lightgray;
+    align-self:top;
+    padding-right:2em;
+    padding-left:3em;
+    margin-right: 1.8em;
+    padding-top:1.4em;
+    
+}
+#c3p22{
+    grid-area:4/2/6/5;
+    background-color:lightgray;
+    align-self:top;
+    padding-right:2em;
+    padding-left:3em;
+    margin-right: 1.8em;
+    padding-top:1em;
+    margin-top:0.5em;
+    
+}
+
+#c3p23{
+    grid-area:1/4/9/9;
+    margin-left:5.7em;
+    padding-top:1.5em;
+    padding-right:5em;
+    margin-right:6em;
+    background-color:lightgray;
+    
+}
+#c3p25{
+    grid-area:4/4/9/6;
+    border: 1px dashed black;
+    padding-left:1.2em;
+    padding-right:0.5em;
+    margin-right:2.2em;
+    padding-top:0.8em;
+    margin-top: 3.2em;
+    border-radius: 2em;
+    margin-left: 5.1em;
+    line-height: 1.1em;
+    font-size: 0.92em;
+    margin-bottom: 0.6em;
+    background-color: white;}
+
+#c3p26{
+    grid-area:4/5/9/8;
+        border: 1px dashed black;
+        padding-left:1.2em;
+        padding-right:0.5em;
+        margin-right:2.2em;
+        padding-top:0.8em;
+        margin-top: 3.2em;
+        border-radius: 2em;
+        margin-left: 7.5em;
+        line-height: 1.1em;
+        font-size: 0.92em;
+        margin-bottom: 1em;
+        background-color: white;
+        padding-bottom: 1em;
+    }
+#c3p27{
+    display:grid;
+    grid-template-rows:3fr 1fr;
+    grid-area:1/7/5/11;
+    font-size: 0.92em;
+    line-height: 1.1em;
+    border: 1px dashed black;
+    margin-left: 4em;
+    margin-right: 2.5em;
+    margin-top:1em;
+    padding-top:0.8em;
+    margin-bottom:1em ;
+    padding-left: 1em;
+    border-radius: 2em;
+    padding-right: 0.5em;
+    background-color: white;
+    padding-bottom:2em;
+
+}
+
+#c3p24{
+    
+    grid-area:4/8/9/11;
+    /* font-size: 0.92em;
+    line-height: 1.1em; */
+    /* border: 1px dashed black; */
+    margin-left: 1em;
+    margin-right: 3em;
+    margin-top:2em;
+    padding-top:2em;
+   margin-bottom: 1.5em;
+    padding-left: 2em;
+    border-radius: 2em;
+    padding-right: 2em;
+    /* background-color: white; */
+
+}
+#gopher{
+    width:8em;
+}
+#scratch{
+    width:8em;
+}
+#lisp{
+    width:6em;
+}
